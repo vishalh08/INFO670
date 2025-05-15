@@ -1,35 +1,27 @@
-# 📘 INFO670 Assignment 2 — "Grocery List"
+# 📘 INFO670 Assignment 3 — "Gallery App"
 
 ---
 
 ## Design and Purpose
 
-This mobile app is a simple and easy-to-use **Grocery List Manager** built with **React Native**. It's designed to help users — whether students, parents, or anyone else — quickly jot down the items they need to buy, along with quantities, ensuring nothing gets forgotten during a shopping trip.
+A simple React Native application that allows users to view a photo gallery and manage their personal profile.
 
 ---
 
-## Basic Use
+## Features
 
-### Adding Items
-
-1. Open the app and enter the name of the grocery item (e.g., "Apples").
-2. Enter the quantity of the item (e.g., "2 lbs").
-3. Press the **"Add to List"** button to add the item to your grocery list.
-
-### Deleting Items
-
-- To remove an item, simply tap the **"Delete"** button next to the item in your list.
-
-### Error Handling
-
-- If either the item name or quantity is left blank, an alert will pop up to notify you to fill in both fields before adding the item.
+- **Gallery View**: Browse a curated collection of beautiful national park images displayed in a responsive 2-column grid.
+- **Picture Viewer**: Tap an image to view it fullscreen with a clear caption and easy back navigation.
+- **Profile Form**: Enter and update personal details including name, email, gender (via radio buttons), and major (via dropdown).
+- **Persistent Storage**: Profile data is saved locally using `AsyncStorage`, so information persists across app restarts.
+- **Form Validation**: Real-time validation with helpful error messages for required fields and correct email formatting.
 
 ---
 
 ## Screenshots
 
-| Home Screen                                        | Adding an Item                                             | Item Added                                                     | List with Items (Scrollable)                                  | Item Deletion (view after deleting items)                     | Error Handling                                       |
-| -------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------- |
-| ![Home](./MyFirstReactNative/screenshots/home.png) | ![Add Item](./MyFirstReactNative/screenshots/add_item.png) | ![Item Added](./MyFirstReactNative/screenshots/item_added.png) | ![List View](./MyFirstReactNative/screenshots/scrollable.png) | ![Item Deletion](./MyFirstReactNative/screenshots/delete.png) | ![Error](./MyFirstReactNative/screenshots/error.png) |
+| Gallery View                                             | Picture Viewer                                                  | Profile Form                                                  | Validation Errors                                                 | Save Confirmation                                               |
+| -------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------- |
+| ![Gallery](./MyFirstReactNative/screenshots/gallery.png) | ![Picture Viewer](./MyFirstReactNative/screenshots/picture.png) | ![Profile Form](./MyFirstReactNative/screenshots/profile.png) | ![Validation Errors](./MyFirstReactNative/screenshots/error1.png) | ![Save Confirmation](./MyFirstReactNative/screenshots/save.png) |
 
 ---
